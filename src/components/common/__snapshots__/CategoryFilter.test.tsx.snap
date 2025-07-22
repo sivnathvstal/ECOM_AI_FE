@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryFilter renders correctly 1`] = `
+<div>
+  <div
+    class="MuiFormControl-root category-filter"
+    data-testid="category-filter"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+      data-shrink="false"
+      id="category-select-label"
+    >
+      Category
+    </label>
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+      data-testid="category-select"
+    >
+      <div
+        aria-haspopup="listbox"
+        aria-labelledby="category-select-label category-select"
+        class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+        id="category-select"
+        role="button"
+        tabindex="0"
+      >
+        <span>
+          ​
+        </span>
+      </div>
+      <input
+        aria-hidden="true"
+        class="MuiSelect-nativeInput"
+        tabindex="-1"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSelect-icon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

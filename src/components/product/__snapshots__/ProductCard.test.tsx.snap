@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard renders correctly 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root product-card MuiPaper-elevation1 MuiPaper-rounded"
+    data-testid="product-card-1"
+  >
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiCardActionArea-root"
+      href="/product/1"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiCardMedia-root product-media"
+        data-testid="product-image-1"
+        style="background-image: url(test1.jpg);"
+        title="Test Product 1"
+      />
+      <div
+        class="MuiCardContent-root product-content"
+      >
+        <h2
+          class="MuiTypography-root product-title MuiTypography-h6 MuiTypography-gutterBottom"
+          data-testid="product-title-1"
+        >
+          Test Product 1
+        </h2>
+        <p
+          class="MuiTypography-root product-price MuiTypography-body1 MuiTypography-colorTextPrimary"
+          data-testid="product-price-1"
+        >
+          $
+          10.99
+        </p>
+      </div>
+      <span
+        class="MuiCardActionArea-focusHighlight"
+      />
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+    <div
+      class="MuiCardActions-root product-actions MuiCardActions-spacing"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+        data-testid="view-details-1"
+        href="/product/1"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          View Details
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;

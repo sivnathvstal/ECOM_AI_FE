@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartPage renders correctly with items in cart 1`] = `
+<div>
+  <div
+    class="MuiContainer-root cart-container MuiContainer-maxWidthLg"
+    data-testid="cart-page"
+  >
+    <h1
+      class="MuiTypography-root cart-title MuiTypography-h4"
+      data-testid="cart-title"
+    >
+      Shopping Cart
+    </h1>
+    <div
+      class="MuiBox-root MuiBox-root-1"
+      data-testid="cart-items"
+    >
+      <div
+        class="MuiPaper-root cart-item MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="cart-item-1"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          >
+            <img
+              alt="Test Product 1"
+              class="cart-item-image"
+              data-testid="cart-item-image-1"
+              src="test1.jpg"
+            />
+          </div>
+          <div
+            class="MuiGrid-root cart-item-info MuiGrid-item MuiGrid-grid-xs-6"
+          >
+            <h6
+              class="MuiTypography-root cart-item-title MuiTypography-subtitle1"
+              data-testid="cart-item-title-1"
+            >
+              Test Product 1
+            </h6>
+            <div
+              class="MuiBox-root MuiBox-root-2 cart-item-quantity"
+              data-testid="cart-item-quantity-1"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                Quantity: 
+                2
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root cart-item-actions MuiGrid-item MuiGrid-grid-xs-3"
+          >
+            <p
+              class="MuiTypography-root cart-item-price MuiTypography-body1"
+              data-testid="cart-item-price-1"
+            >
+              $
+              21.98
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root cart-item-actions MuiGrid-item MuiGrid-grid-xs-1"
+          >
+            <button
+              aria-label="delete"
+              class="MuiButtonBase-root MuiIconButton-root"
+              data-testid="cart-item-remove-1"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root cart-item MuiPaper-elevation1 MuiPaper-rounded"
+        data-testid="cart-item-2"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          >
+            <img
+              alt="Test Product 2"
+              class="cart-item-image"
+              data-testid="cart-item-image-2"
+              src="test2.jpg"
+            />
+          </div>
+          <div
+            class="MuiGrid-root cart-item-info MuiGrid-item MuiGrid-grid-xs-6"
+          >
+            <h6
+              class="MuiTypography-root cart-item-title MuiTypography-subtitle1"
+              data-testid="cart-item-title-2"
+            >
+              Test Product 2
+            </h6>
+            <div
+              class="MuiBox-root MuiBox-root-3 cart-item-quantity"
+              data-testid="cart-item-quantity-2"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                Quantity: 
+                1
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root cart-item-actions MuiGrid-item MuiGrid-grid-xs-3"
+          >
+            <p
+              class="MuiTypography-root cart-item-price MuiTypography-body1"
+              data-testid="cart-item-price-2"
+            >
+              $
+              20.99
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root cart-item-actions MuiGrid-item MuiGrid-grid-xs-1"
+          >
+            <button
+              aria-label="delete"
+              class="MuiButtonBase-root MuiIconButton-root"
+              data-testid="cart-item-remove-2"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root cart-summary MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="cart-summary"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+      >
+        Order Summary
+      </h6>
+      <hr
+        class="MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root MuiBox-root-4 summary-item"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Items (
+          3
+          )
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          $
+          42.97
+        </p>
+      </div>
+      <hr
+        class="MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root MuiBox-root-5 summary-item"
+      >
+        <p
+          class="MuiTypography-root total MuiTypography-body1"
+        >
+          Total
+        </p>
+        <p
+          class="MuiTypography-root total MuiTypography-body1"
+          data-testid="cart-total"
+        >
+          $
+          42.97
+        </p>
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained checkout-button MuiButton-containedPrimary MuiButton-fullWidth"
+        data-testid="checkout-button"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Checkout
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined continue-shopping-button MuiButton-fullWidth"
+        data-testid="continue-shopping"
+        href="/"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Continue Shopping
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;

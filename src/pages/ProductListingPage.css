@@ -1,0 +1,31 @@
+.product-listing-container {
+  padding: 16px;
+}
+
+.product-listing-title {
+  margin-bottom: 16px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.search-container-wrapper {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.no-results {
+  text-align: center;
+  padding: 32px;
+} 

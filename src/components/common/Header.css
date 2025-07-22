@@ -1,0 +1,14 @@
+.header-title {
+  flex-grow: 1;
+  text-decoration: none;
+  color: white;
+}
+
+.header-cart-button {
+  margin-right: 16px;
+}
+
+.header-badge {
+  right: -3px;
+  top: 13px;
+} 

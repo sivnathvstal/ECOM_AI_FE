@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductListingPage renders correctly 1`] = `
+<div>
+  <div
+    class="MuiContainer-root product-listing-container MuiContainer-maxWidthLg"
+    data-testid="product-listing-page"
+  >
+    <h1
+      class="MuiTypography-root product-listing-title MuiTypography-h4"
+      data-testid="page-title"
+    >
+      Products
+    </h1>
+    <div
+      class="MuiBox-root MuiBox-root-1 filter-container"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-2 search-container-wrapper"
+      >
+        <form
+          class="MuiPaper-root search-container MuiPaper-elevation1 MuiPaper-rounded"
+          data-testid="search-form"
+        >
+          <div
+            class="MuiInputBase-root search-input"
+          >
+            <input
+              aria-label="search products"
+              class="MuiInputBase-input"
+              data-testid="search-input"
+              placeholder="Search products..."
+              type="text"
+              value=""
+            />
+          </div>
+          <button
+            aria-label="search"
+            class="MuiButtonBase-root MuiIconButton-root search-button"
+            data-testid="search-button"
+            tabindex="0"
+            type="submit"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </form>
+      </div>
+      <div
+        class="MuiFormControl-root category-filter"
+        data-testid="category-filter"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+          data-shrink="false"
+          id="category-select-label"
+        >
+          Category
+        </label>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          data-testid="category-select"
+        >
+          <div
+            aria-haspopup="listbox"
+            aria-labelledby="category-select-label category-select"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+            id="category-select"
+            role="button"
+            tabindex="0"
+          >
+            <span>
+              ​
+            </span>
+          </div>
+          <input
+            aria-hidden="true"
+            class="MuiSelect-nativeInput"
+            tabindex="-1"
+            value=""
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+      data-testid="product-grid"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root product-card MuiPaper-elevation1 MuiPaper-rounded"
+          data-testid="product-card-1"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiCardActionArea-root"
+            href="/product/1"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiCardMedia-root product-media"
+              data-testid="product-image-1"
+              style="background-image: url(test1.jpg);"
+              title="Test Product 1"
+            />
+            <div
+              class="MuiCardContent-root product-content"
+            >
+              <h2
+                class="MuiTypography-root product-title MuiTypography-h6 MuiTypography-gutterBottom"
+                data-testid="product-title-1"
+              >
+                Test Product 1
+              </h2>
+              <p
+                class="MuiTypography-root product-price MuiTypography-body1 MuiTypography-colorTextPrimary"
+                data-testid="product-price-1"
+              >
+                $
+                10.99
+              </p>
+            </div>
+            <span
+              class="MuiCardActionArea-focusHighlight"
+            />
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+          <div
+            class="MuiCardActions-root product-actions MuiCardActions-spacing"
+          >
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+              data-testid="view-details-1"
+              href="/product/1"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                View Details
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root product-card MuiPaper-elevation1 MuiPaper-rounded"
+          data-testid="product-card-2"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiCardActionArea-root"
+            href="/product/2"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiCardMedia-root product-media"
+              data-testid="product-image-2"
+              style="background-image: url(test2.jpg);"
+              title="Test Product 2"
+            />
+            <div
+              class="MuiCardContent-root product-content"
+            >
+              <h2
+                class="MuiTypography-root product-title MuiTypography-h6 MuiTypography-gutterBottom"
+                data-testid="product-title-2"
+              >
+                Test Product 2
+              </h2>
+              <p
+                class="MuiTypography-root product-price MuiTypography-body1 MuiTypography-colorTextPrimary"
+                data-testid="product-price-2"
+              >
+                $
+                20.99
+              </p>
+            </div>
+            <span
+              class="MuiCardActionArea-focusHighlight"
+            />
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+          <div
+            class="MuiCardActions-root product-actions MuiCardActions-spacing"
+          >
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+              data-testid="view-details-2"
+              href="/product/2"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                View Details
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root product-card MuiPaper-elevation1 MuiPaper-rounded"
+          data-testid="product-card-3"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiCardActionArea-root"
+            href="/product/3"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiCardMedia-root product-media"
+              data-testid="product-image-3"
+              style="background-image: url(test3.jpg);"
+              title="Test Product 3"
+            />
+            <div
+              class="MuiCardContent-root product-content"
+            >
+              <h2
+                class="MuiTypography-root product-title MuiTypography-h6 MuiTypography-gutterBottom"
+                data-testid="product-title-3"
+              >
+                Test Product 3
+              </h2>
+              <p
+                class="MuiTypography-root product-price MuiTypography-body1 MuiTypography-colorTextPrimary"
+                data-testid="product-price-3"
+              >
+                $
+                15.99
+              </p>
+            </div>
+            <span
+              class="MuiCardActionArea-focusHighlight"
+            />
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+          <div
+            class="MuiCardActions-root product-actions MuiCardActions-spacing"
+          >
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+              data-testid="view-details-3"
+              href="/product/3"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                View Details
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root product-card MuiPaper-elevation1 MuiPaper-rounded"
+          data-testid="product-card-4"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiCardActionArea-root"
+            href="/product/4"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiCardMedia-root product-media"
+              data-testid="product-image-4"
+              style="background-image: url(test4.jpg);"
+              title="Test Product 4"
+            />
+            <div
+              class="MuiCardContent-root product-content"
+            >
+              <h2
+                class="MuiTypography-root product-title MuiTypography-h6 MuiTypography-gutterBottom"
+                data-testid="product-title-4"
+              >
+                Test Product 4
+              </h2>
+              <p
+                class="MuiTypography-root product-price MuiTypography-body1 MuiTypography-colorTextPrimary"
+                data-testid="product-price-4"
+              >
+                $
+                25.99
+              </p>
+            </div>
+            <span
+              class="MuiCardActionArea-focusHighlight"
+            />
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+          <div
+            class="MuiCardActions-root product-actions MuiCardActions-spacing"
+          >
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall"
+              data-testid="view-details-4"
+              href="/product/4"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                View Details
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-4 pagination-container"
+      data-testid="pagination"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary Mui-disabled Mui-disabled"
+        data-testid="previous-page"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </span>
+          Previous
+        </span>
+      </button>
+      <div
+        class="MuiBox-root MuiBox-root-5 pagination-info"
+        data-testid="page-info"
+      >
+        Page 
+        1
+         of 
+        1
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary Mui-disabled Mui-disabled"
+        data-testid="next-page"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Next
+          <span
+            class="MuiButton-endIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

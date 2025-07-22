@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItemComponent renders correctly 1`] = `
+<div>
+  <div
+    class="MuiPaper-root cart-item MuiPaper-elevation1 MuiPaper-rounded"
+    data-testid="cart-item-1"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <img
+          alt="Test Product 1"
+          class="cart-item-image"
+          data-testid="cart-item-image-1"
+          src="test1.jpg"
+        />
+      </div>
+      <div
+        class="MuiGrid-root cart-item-info MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        <h6
+          class="MuiTypography-root cart-item-title MuiTypography-subtitle1"
+          data-testid="cart-item-title-1"
+        >
+          Test Product 1
+        </h6>
+        <div
+          class="MuiBox-root MuiBox-root-1 cart-item-quantity"
+          data-testid="cart-item-quantity-1"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2"
+          >
+            Quantity: 
+            2
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root cart-item-actions MuiGrid-item MuiGrid-grid-xs-3"
+      >
+        <p
+          class="MuiTypography-root cart-item-price MuiTypography-body1"
+          data-testid="cart-item-price-1"
+        >
+          $
+          21.98
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root cart-item-actions MuiGrid-item MuiGrid-grid-xs-1"
+      >
+        <button
+          aria-label="delete"
+          class="MuiButtonBase-root MuiIconButton-root"
+          data-testid="cart-item-remove-1"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

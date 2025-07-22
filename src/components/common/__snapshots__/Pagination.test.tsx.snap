@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders correctly 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-1 pagination-container"
+    data-testid="pagination"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary Mui-disabled Mui-disabled"
+      data-testid="previous-page"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <span
+          class="MuiButton-startIcon MuiButton-iconSizeMedium"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+            />
+          </svg>
+        </span>
+        Previous
+      </span>
+    </button>
+    <div
+      class="MuiBox-root MuiBox-root-2 pagination-info"
+      data-testid="page-info"
+    >
+      Page 
+      1
+       of 
+      3
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+      data-testid="next-page"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Next
+        <span
+          class="MuiButton-endIcon MuiButton-iconSizeMedium"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+            />
+          </svg>
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
